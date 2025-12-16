@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e965f5c781ac647b10054755291ea5, type: 3}
+  m_Name: Kuwahara Pass
+  m_EditorClassIdentifier: Assembly-CSharp::KuwaharaSettingsSO
+  m_passType: 0
+  passMaterial: {fileID: 2100000, guid: 52817247a8c2f5244ba382d7175993fd, type: 2}
+  kuwaharaShader: {fileID: 0}
+  kernelSize: 4
+  sharpness: 8.7
+  hardness: 29.3
+  alpha: 0.2
+  zeroCrossing: 0.6
+  useZeta: 1
+  zeta: 0.38
+  passes: 1

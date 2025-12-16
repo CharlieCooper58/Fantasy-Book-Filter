@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa1b61099feaac4f88f866ae6527b1f, type: 3}
+  m_Name: Color Clamp Pass
+  m_EditorClassIdentifier: Assembly-CSharp::ColorClampSettingsSO
+  m_passType: 1
+  passMaterial: {fileID: 2100000, guid: b8f6d1789a9501448866423944d3a06d, type: 2}
+  rClamp: 32
+  gClamp: 32
+  bClamp: 32
+  hueClamp: 29
+  satClamp: 4
+  valueClamp: 18
+  hueShift: 0
+  useSameClampForAllChannels: 0
+  useHSV: 1
+  dither: 1
+  ditherSpread: 0.127
+  preserveLowerValues: 0
